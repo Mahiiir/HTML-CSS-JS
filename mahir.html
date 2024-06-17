@@ -1,0 +1,122 @@
+<!-- This is Doctype -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahir</title>
+</head>
+<body>
+    <!-- This is heading tag and it can go till h6 -->
+    <h1>Good Morning</h1>
+    <!-- This is Paragraph tag and it can done also using p*3 -->
+    <!-- strong tag to make it bold -->
+    <p><strong>I am Mahir</strong></p>
+    <!-- em tag to make it italics -->
+    <p><em>How are you</em></p>
+    <!-- Use lorem55 for 55 words dummy text and use alt+z for toggle wrap tool -->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel vitae omnis reiciendis temporibus veritatis, sit, placeat obcaecati provident fuga perferendis iusto accusantium aut hic impedit. Temporibus, repellendus. Quisquam culpa ea odit consequuntur perspiciatis dolor a dolorem hic recusandae! Quidem, commodi? Eveniet hic culpa labore provident suscipit corporis deleniti tenetur, consequatur repellendus officia harum distinctio incidunt!</p>
+    <hr>
+    <!-- Here we are providing some hyperlink -->
+    <a href="https://google.com" target="_blank">Link to Google</a><br>
+    <a href="https://www.youtube.com/@newtonmusic8460" target="_blank">Link to NEWTON Music</a><br>
+    <hr>
+    <!-- Here we providing images -->
+    <img src="https://images.unsplash.com/photo-1578958792897-58db5098a820?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNvdXJjZXxlbnwwfHwwfHx8MA%3D%3D" alt="image reloading"><br>
+    <img src="3.png" alt="image reloading"><br>
+    <!-- will not load the image as it does not exists in the folder, so alt message will be shown -->
+    <img src="4.png" alt="image reloading"><br>
+    <hr>
+    <ul type="circle">
+        <li>Hello I am Mahir</li>
+        <li>How are you</li>
+        <ul type="square">
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit.</li>
+        </ul>
+    </ul>
+    <ol type="A">
+        <li>Hello I am Ritik</li>
+        <li>Hello I am Dimple</li>
+        <ol type="1">
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo veritatis nihil qui illum! Libero ratione ipsa in architecto? Vero nobis quam rem laboriosam iste eum corrupti dolores atque consequatur consequuntur.</li>
+        </ol>
+    </ol>
+    <hr>
+
+    <h2>Fill up this form:</h2>
+    <form action="backend.py">
+        <div>
+            <label for="Fname">First Name</label>
+            <input type="text" name="myFirstName" id="Fname">
+        </div>
+        <br>
+        <div>
+            <label for="Lname">Last Name</label>
+            <input type="text" name="myLastName" id="Lname">
+        </div>
+        <br>
+        <div>
+            <label for="type">Phone Type</label>
+            <select name="mytype" id="type">
+                <option value="a" selected>Mobile</option>
+                <option value="b">Landline</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="number">Phone Number</label>
+            <input type="number" name="myNumber" id="number">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender: </label>
+            Male <input type="radio" name="myGender" id="gender">
+            Female <input type="radio" name="myGender" id="gender">
+            Others <input type="radio" name="myGender" id="gender">
+        </div>
+        <br>
+        <div>
+            <label for="hobbies">Hobbies: </label><br>
+            <input type="checkbox" name="myHobbies" id="hobbies"> Cricket  <br>
+            <input type="checkbox" name="myHobbies" id="hobbies"> Football <br>
+            <input type="checkbox" name="myHobbies" id="hobbies"> Baseball <br>
+        </div>
+        <br>
+        <div>
+            <label for="description">About Yourself: </label><br>
+            <textarea name="myDescription" id="description" cols="40" rows="5"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="SUBMIT HERE">
+            <input type="reset" value="RESET HERE">
+        </div>
+        <hr>
+    </form>
+    <h3>Inline and Block Elements</h3>
+    <p style="border: 2px solid black;">Paragraph is block element</p>
+    <div style="border: 2px solid black;">Div is block element</div>
+    <span style="border: 2px solid black;">span is inline element</span>
+    <strong style="border: 2px solid black;">strong is inline element</strong>
+    <em style="border: 2px solid black;">em is inline element</em>
+    <ul type="circle">
+        <li style="border: 2px solid black;">li is block element 1</li>
+        <li style="border: 2px solid black;">li is block element 2</li>
+    </ul>
+    <img src="3.png" alt="no image" style="border: 2px solid black;">
+    <hr>
+    <h4>Ids and classes</h4>
+    <!-- div#redBg -->
+    <div id="redBg"> div tag </div>
+    <!-- div.redBg -->
+    <div class="redBg"> div tag </div>
+    <!-- span.redBg.redBg1.redBg2 -->
+    <span class="redBg redBg1 redBg2"> span tag </span>
+    <!-- span.redBg.redBg1.redBg2*3 -->
+    <span class="redBg redBg1 redBg2">span 1</span>
+    <span class="redBg redBg1 redBg2">span 2</span>
+    <span class="redBg redBg1 redBg2">span 3</span>
+    <hr>
+
+</body>
+</html>
