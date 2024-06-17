@@ -5,17 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahir</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+SK:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+        /* Element Selector */
+        h1{
+            color: greenyellow;
+            background-color: rebeccapurple !important;
+            text-align: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Web Safe Font*/
+        }
+
+        /* Id Selector */
+        #firstPara{
+            color: red;
+            background-color: aqua;
+            text-align: center;
+            font-family: "Playwrite SK", cursive; /*Web Font*/
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        /* Class Selector */
+        .bgRed{
+            color: blueviolet;
+            background-color: aquamarine;
+        }
+
+        .margRed{
+            border: 2px solid black;
+            text-align: center;
+        }
+
+        strong, em{
+            background-color: pink;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="mahir.css"> -->
 </head>
 <body>
     <!-- This is heading tag and it can go till h6 -->
+    <!-- <h1 style="color: greenyellow; background-color:hotpink; text-align: center;">Good Morning</h1> -->
     <h1>Good Morning</h1>
     <!-- This is Paragraph tag and it can done also using p*3 -->
     <!-- strong tag to make it bold -->
-    <p><strong>I am Mahir</strong></p>
+    <p id="firstPara">I am Mahir</p>
     <!-- em tag to make it italics -->
-    <p><em>How are you</em></p>
+    <p class="bgRed margRed"><em>How are you</em></p>
     <!-- Use lorem55 for 55 words dummy text and use alt+z for toggle wrap tool -->
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel vitae omnis reiciendis temporibus veritatis, sit, placeat obcaecati provident fuga perferendis iusto accusantium aut hic impedit. Temporibus, repellendus. Quisquam culpa ea odit consequuntur perspiciatis dolor a dolorem hic recusandae! Quidem, commodi? Eveniet hic culpa labore provident suscipit corporis deleniti tenetur, consequatur repellendus officia harum distinctio incidunt!</p>
+    <p class="bgRed">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel vitae omnis reiciendis temporibus veritatis, sit, placeat obcaecati provident fuga perferendis iusto accusantium aut hic impedit. Temporibus, repellendus. Quisquam culpa ea odit consequuntur perspiciatis dolor a dolorem hic recusandae! Quidem, commodi? Eveniet hic culpa labore provident suscipit corporis deleniti tenetur, consequatur repellendus officia harum distinctio incidunt!</p>
+    <strong>I am Strong</strong><br>
+    <em>I am Italic</em>
     <hr>
     <!-- Here we are providing some hyperlink -->
     <a href="https://google.com" target="_blank">Link to Google</a><br>
