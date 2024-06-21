@@ -17,6 +17,31 @@
             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Web Safe Font*/
         }
 
+        strong, em{
+            color: darkviolet;
+        }
+
+        .seClass{
+            text-align: center;
+            font-size: larger;
+        }
+
+        /* Class Selector */
+        .loremClass{
+            color: black;
+            background-color: aquamarine;
+            width: 500px;
+            height: 150px;
+            margin-left: 500px;
+            margin-right: 100px;
+            text-align: center;
+            align-items: center;
+        }
+        
+        h4{
+            background-color: greenyellow;
+        }
+
         /* Id Selector */
         #firstPara{
             color: red;
@@ -27,20 +52,10 @@
             font-weight: normal;
             font-style: normal;
         }
-        
-        /* Class Selector */
-        .bgRed{
-            color: #8A2BE2;
-            background-color: aquamarine;
-        }
 
         .margRed{
             border: 2px solid black;
             text-align: center;
-        }
-
-        strong, em{
-            background-color: rgb(24, 213, 23);
         }
 
         #firstParaBorder{
@@ -102,30 +117,42 @@
             margin-left: 12px;
             margin-right: 12px;
             border-radius: 10px;
+            box-sizing: border-box;
         }
 
     </style>
     <!-- <link rel="stylesheet" href="mahir.css"> -->
 </head>
 <body>
-    <!-- This is heading tag and it can go till h6 -->
-    <!-- <h1 style="color: greenyellow; background-color:hotpink; text-align: center;">Good Morning</h1> -->
+    
     <h1>Good Morning</h1>
-    <!-- This is Paragraph tag and it can done also using p*3 -->
+
+    <!-- below is shown is INLINE tags syntax -->
+    <!-- <h1 style="color: greenyellow; background-color:hotpink; text-align: center;">Good Morning</h1> -->
+
+    <!-- This is Paragraph tag and it can done also using p*3 for consecutive Paragraph tag
+        <p></p>
+        <p></p>
+        <p></p> -->
+
     <!-- strong tag to make it bold -->
-    <p id="firstPara">I am Mahir</p>
+    <p class="seClass">I am <strong>Mahir</strong>.</p>
+
     <!-- em tag to make it italics -->
-    <p class="bgRed margRed"><em>How are you</em></p>
+    <p class="seClass">How are <em>you</em> doing.</p>
+    
     <!-- Use lorem55 for 55 words dummy text and use alt+z for toggle wrap tool -->
-    <p class="bgRed">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel vitae omnis reiciendis temporibus veritatis, sit, placeat obcaecati provident fuga perferendis iusto accusantium aut hic impedit. Temporibus, repellendus. Quisquam culpa ea odit consequuntur perspiciatis dolor a dolorem hic recusandae! Quidem, commodi? Eveniet hic culpa labore provident suscipit corporis deleniti tenetur, consequatur repellendus officia harum distinctio incidunt!</p>
-    <strong>I am Strong</strong><br>
-    <em>I am Italic</em>
+    <p class="loremClass">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel vitae omnis reiciendis temporibus veritatis, sit, placeat obcaecati provident fuga perferendis iusto accusantium aut hic impedit. Temporibus, repellendus. Quisquam culpa ea odit consequuntur perspiciatis dolor a dolorem hic recusandae! Quidem, commodi? Eveniet hic culpa labore provident suscipit corporis deleniti tenetur, consequatur repellendus officia harum distinctio incidunt!</p>
+    <hr>
+    
     <h2>This is First para for border</h2>
     <p id="firstParaBorder">Hello I am Mahir</p>
     <h2>This is second para for border</h2>
     <p id="secondParaBorder">Hello I am Mahir</p>
     <h2>This is third para for border</h2>
     <p id="thirdParaBorder">Hello I am Mahir</p>
+    <hr>
+    <h4>Box-Sizing, Margin and Padding </h4>
     <div class="container">
         <h2>
             Hello I am Mahir
