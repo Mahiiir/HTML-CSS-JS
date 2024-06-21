@@ -5,17 +5,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mahir</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+SK:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+        /* Element Selector */
+        h1{
+            color: greenyellow;
+            background-color: rebeccapurple !important;
+            text-align: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*Web Safe Font*/
+        }
+
+        /* Id Selector */
+        #firstPara{
+            color: red;
+            background-color: aqua;
+            text-align: center;
+            font-family: "Playwrite SK", cursive; /*Web Font*/
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        /* Class Selector */
+        .bgRed{
+            color: #8A2BE2;
+            background-color: aquamarine;
+        }
+
+        .margRed{
+            border: 2px solid black;
+            text-align: center;
+        }
+
+        strong, em{
+            background-color: rgb(24, 213, 23);
+        }
+
+        #firstParaBorder{
+            background-color: greenyellow;
+            width: 150px;
+            height: 170px;
+            /*border: 3px dotted black;*/
+            border-width: 3px;
+            border-color: black;
+            border-style: dotted;
+            border-radius: 5px;
+        }
+
+        #secondParaBorder{
+            background-color: violet;
+            width: 150px;
+            height: 170px;
+            border-top: 3px dotted blue;
+            border-bottom: 3px dashed red;
+            border-left: 3px solid darkgreen;
+            border-right: 3px double saddlebrown;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 12px;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 12px;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            margin-top: 9px;
+            margin-bottom: 9px;
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+
+        #thirdParaBorder{
+            background-image: url("https://yt3.googleusercontent.com/ytc/AIdro_l6CQnMvSmnAzIgXPRALce5NyEeqqd8nYpkzPDaejGpdg=s160-c-k-c0x00ffffff-no-rj");
+            color: red;
+            width: 500px;
+            height: 550px;
+            border: 3px solid red;
+            /* background-repeat: repeat-x;     */
+            /* background-repeat: repeat-y; */
+            background-repeat: no-repeat;
+            background-position: center top;
+        }
+
+        .container{
+            background-color: aqua;
+            width: 900px;
+            height: 200px;
+            border: 3px solid red   ;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            margin-top: 9px;
+            margin-bottom: 9px;
+            margin-left: 12px;
+            margin-right: 12px;
+            border-radius: 10px;
+        }
+
+    </style>
+    <!-- <link rel="stylesheet" href="mahir.css"> -->
 </head>
 <body>
     <!-- This is heading tag and it can go till h6 -->
+    <!-- <h1 style="color: greenyellow; background-color:hotpink; text-align: center;">Good Morning</h1> -->
     <h1>Good Morning</h1>
     <!-- This is Paragraph tag and it can done also using p*3 -->
     <!-- strong tag to make it bold -->
-    <p><strong>I am Mahir</strong></p>
+    <p id="firstPara">I am Mahir</p>
     <!-- em tag to make it italics -->
-    <p><em>How are you</em></p>
+    <p class="bgRed margRed"><em>How are you</em></p>
     <!-- Use lorem55 for 55 words dummy text and use alt+z for toggle wrap tool -->
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel vitae omnis reiciendis temporibus veritatis, sit, placeat obcaecati provident fuga perferendis iusto accusantium aut hic impedit. Temporibus, repellendus. Quisquam culpa ea odit consequuntur perspiciatis dolor a dolorem hic recusandae! Quidem, commodi? Eveniet hic culpa labore provident suscipit corporis deleniti tenetur, consequatur repellendus officia harum distinctio incidunt!</p>
+    <p class="bgRed">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel vitae omnis reiciendis temporibus veritatis, sit, placeat obcaecati provident fuga perferendis iusto accusantium aut hic impedit. Temporibus, repellendus. Quisquam culpa ea odit consequuntur perspiciatis dolor a dolorem hic recusandae! Quidem, commodi? Eveniet hic culpa labore provident suscipit corporis deleniti tenetur, consequatur repellendus officia harum distinctio incidunt!</p>
+    <strong>I am Strong</strong><br>
+    <em>I am Italic</em>
+    <h2>This is First para for border</h2>
+    <p id="firstParaBorder">Hello I am Mahir</p>
+    <h2>This is second para for border</h2>
+    <p id="secondParaBorder">Hello I am Mahir</p>
+    <h2>This is third para for border</h2>
+    <p id="thirdParaBorder">Hello I am Mahir</p>
+    <div class="container">
+        <h2>
+            Hello I am Mahir
+        </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi possimus aperiam quibusdam aspernatur, veniam dolorem ducimus architecto fugit sed? Earum voluptatibus nemo ut tempora temporibus sed corrupti est dolore. Consequuntur.</p>
+    </div>
+    <div class="container">
+        <h2>
+            Hello I am Mahir
+        </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi possimus aperiam quibusdam aspernatur, veniam dolorem ducimus architecto fugit sed? Earum voluptatibus nemo ut tempora temporibus sed corrupti est dolore. Consequuntur.</p>
+    </div>
+    <div class="container">
+        <h2>
+            Hello I am Mahir
+        </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi possimus aperiam quibusdam aspernatur, veniam dolorem ducimus architecto fugit sed? Earum voluptatibus nemo ut tempora temporibus sed corrupti est dolore. Consequuntur.</p>
+    </div>
+    <div class="container">
+        <h2>
+            Hello I am Mahir
+        </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi possimus aperiam quibusdam aspernatur, veniam dolorem ducimus architecto fugit sed? Earum voluptatibus nemo ut tempora temporibus sed corrupti est dolore. Consequuntur.</p>
+    </div>
     <hr>
     <!-- Here we are providing some hyperlink -->
     <a href="https://google.com" target="_blank">Link to Google</a><br>
