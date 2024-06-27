@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and Clear</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        h1{
+            color: black;
+            background-color: aqua;
+            text-align: center;
+        }
+
+        .home{
+            border: 3px dashed black;
+            background-color: #ffff83;
+            margin: auto;
+        }
+
+        .people{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            border: 3px solid grey;
+            padding: 10px 5px;
+            margin: 10px 5px;
+        }
+
+        .para{
+            background-color: rgb(18, 231, 231);
+        }
+
+        #mahpara{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #sidpara{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #jinpara{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        #arypara{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #Mahir{
+            float: left;
+            width: 48%;
+        }
+        #Siddh{
+            float: right;
+            width: 48%;
+        }
+        #Jinal{
+            /* float: left; */
+            clear: both;
+            width: 100%;
+        }
+        #Arya{
+            /* float: left; */
+            clear: both;
+            width: 100%;
+        }
+
+        h2{
+            background-color:aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to 466 Wyandotte Street West</h1>
+    <div class="home">
+        <div id="Mahir" class="people">
+            <h2>Mahir Patel</h2>
+            <p id="mahpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, modi eligendi culpa rerum aperiam hic placeat, doloribus veritatis at repellendus recusandae eum accusantium. Quisquam numquam optio dicta voluptatem amet consequatur deserunt quibusdam laborum voluptatibus laboriosam!</p>
+        </div>
+        <div id="Siddh" class="people">
+            <h2>Siddh Patel</h2>
+            <p id="sidpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, modi eligendi culpa rerum aperiam hic placeat, doloribus veritatis at repellendus recusandae eum accusantium. Quisquam numquam optio dicta voluptatem amet consequatur deserunt quibusdam laborum voluptatibus laboriosam!</p>
+        </div>
+        <div id="Jinal" class="people">
+            <h2>Jinal Barot</h2>
+            <p id="jinpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, modi eligendi culpa rerum aperiam hic placeat, doloribus veritatis at repellendus recusandae eum accusantium. Quisquam numquam optio dicta voluptatem amet consequatur deserunt quibusdam laborum voluptatibus laboriosam!</p>
+        </div>
+        <div id="Arya" class="people">
+            <h2>Arya Patel</h2>
+            <p id="arypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, modi eligendi culpa rerum aperiam hic placeat, doloribus veritatis at repellendus recusandae eum accusantium. Quisquam numquam optio dicta voluptatem amet consequatur deserunt quibusdam laborum voluptatibus laboriosam!</p>
+        </div>
+    </div>
+</body>
+</html>

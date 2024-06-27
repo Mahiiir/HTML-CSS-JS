@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selector and Button/Link Desiging</title>
+    <style>
+        h1{
+            color: black;
+            background-color: aqua;
+            text-align: center;
+        }
+
+        .mall{
+            border: 3px solid black;
+            background-color: bisque;
+            text-align: center;
+            width: 700px;
+            padding: 10px;
+            margin: auto;
+        }
+
+        .btn{
+            background-color: rgb(64, 105, 210);
+            color: black;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover{
+            background-color: brown;
+        }
+
+        .btn:visited{
+            background-color: pink;
+        }
+
+        .navbar{
+            background-color: greenyellow;
+            border-radius: 12px;
+        }
+
+        .navbar ul{
+            overflow: auto;
+        }
+
+        .navbar li{
+            float: left;
+            list-style: none;
+            padding: 10px;
+            margin: 3px;
+        }
+
+        .navbar li a{
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover{
+            color: red;
+        }
+
+        .search{
+            float: right;
+            background-color: aqua;
+            margin: 12px 23px;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to Devonshire Mall</h1>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this Website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="mall">
+        <h2>About Mall</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo veniam error architecto recusandae, vel dignissimos, excepturi eaque numquam quos ducimus molestiae, esse vero repellat expedita quae harum accusamus repellendus accusantium incidunt in nihil exercitationem tenetur!
+        </p>
+        <a href="https://www.gmail.com/" class="btn">About Staff</a>
+        <button class="btn">Location</button>
+    </div>
+</body>
+</html>
